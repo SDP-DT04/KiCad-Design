@@ -3,7 +3,7 @@
   (general
     (links 4)
     (no_connects 4)
-    (area 17.261599 17.664599 155.545201 131.15041)
+    (area 15.789 17.664599 160.118 130.05821)
     (thickness 1.6)
     (drawings 1)
     (tracks 0)
@@ -747,7 +747,7 @@
       (net 113 "Net-(RF1-Pad6)"))
     (pad 11 thru_hole circle (at 20.3 5) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask)
       (net 114 "Net-(RF1-Pad11)"))
-    (model ../../../../../home/hingle/KiCadProjects/SeniorDesign/SeniorDesign3DModels/ID-12LA.wrl
+    (model "../../../../../home/hingle/GitHub Repositories/KiCad-Design/SeniorDesign3DModels/ID-12LA.wrl"
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2091,7 +2091,7 @@
   )
 
   (module SeniorDesignFootprints:XBEE_SX (layer F.Cu) (tedit 5845D4B5) (tstamp 588D4894)
-    (at 135.5598 89.1286)
+    (at 154.3304 86.8426)
     (path /5845B1A4)
     (fp_text reference XB1 (at -6.1595 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2185,7 +2185,7 @@
   )
 
   (module SeniorDesignFootprints:a14071900ux0061 (layer F.Cu) (tedit 58461FC6) (tstamp 588D490E)
-    (at 38.8874 121.3866 90)
+    (at 26.289 120.2944 90)
     (path /584620B9)
     (fp_text reference LC1 (at -1.905 -7.62 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2307,7 +2307,7 @@
   )
 
   (module SeniorDesignFootprints:a14071900ux0061 (layer F.Cu) (tedit 58461FC6) (tstamp 588D684C)
-    (at 57.7342 120.9294 90)
+    (at 61.0616 120.2944 90)
     (path /588D6852)
     (fp_text reference LC2 (at -1.905 -7.62 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2339,7 +2339,7 @@
   )
 
   (module SeniorDesignFootprints:a14071900ux0061 (layer F.Cu) (tedit 58461FC6) (tstamp 588D6853)
-    (at 75.6666 121.3866 90)
+    (at 92.964 120.2944 90)
     (path /588D6914)
     (fp_text reference LC3 (at -1.905 -7.62 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -2371,7 +2371,7 @@
   )
 
   (module SeniorDesignFootprints:a14071900ux0061 (layer F.Cu) (tedit 58461FC6) (tstamp 588D685A)
-    (at 90.9574 120.7008 90)
+    (at 126.4158 120.2944 90)
     (path /588D68CB)
     (fp_text reference LC4 (at -1.905 -7.62 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))

@@ -1,4 +1,4 @@
-update=Mon 30 Jan 2017 10:47:18 AM EST
+update=Mon 30 Jan 2017 05:13:28 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../SeniorDesignLibraries;/home/hingle/kicad-library/library
@@ -67,3 +65,5 @@ LibName35=/home/hingle/kicad-library/library/microchip_pic18mcu
 LibName36=/home/hingle/kicad-library/library/microchip_pic32mcu
 LibName37=SparkFun
 LibName38=SeniorDesignSchematics
+[general]
+version=1

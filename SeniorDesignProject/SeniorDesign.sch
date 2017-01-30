@@ -64,17 +64,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/70000657H.pdf" H 6685 1400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L XBee-SX XB1
-U 1 1 5845B1A4
-P 5415 6565
-F 0 "XB1" H 5415 7365 60  0000 C CNN
-F 1 "XBee-SX" H 5390 7490 98  0000 C CNN
-F 2 "SeniorDesignFootprints:XBEE_SX" H 3940 5740 60  0001 C CNN
-F 3 "" H 3940 5740 60  0001 C CNN
-	1    5415 6565
-	1    0    0    -1  
-$EndComp
-$Comp
 L ID-12LA RF1
 U 1 1 5845DD1D
 P 8665 5790
@@ -99,12 +88,12 @@ $EndComp
 $Comp
 L CONN_01X03 P3
 U 1 1 584603A4
-P 770 5090
-F 0 "P3" H 770 5290 50  0000 C CNN
-F 1 "CONN_01X03" V 870 5090 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 770 5090 50  0001 C CNN
-F 3 "" H 770 5090 50  0000 C CNN
-	1    770  5090
+P 825 5090
+F 0 "P3" H 825 5290 50  0000 C CNN
+F 1 "CONN_01X03" V 925 5090 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 825 5090 50  0001 C CNN
+F 3 "" H 825 5090 50  0000 C CNN
+	1    825  5090
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -302,6 +291,17 @@ F 1 "a14071900ux0061" H 3985 2795 59  0000 C CNN
 F 2 "SeniorDesignFootprints:a14071900ux0061" H 4460 1620 60  0001 C CNN
 F 3 "" H 4460 1620 60  0001 C CNN
 	1    3985 2620
+	1    0    0    -1  
+$EndComp
+$Comp
+L XBEE-Headers P9
+U 1 1 588F841D
+P 3515 4410
+F 0 "P9" H 3215 5060 50  0000 C CNN
+F 1 "XBEE-Headers" H 3215 4960 50  0000 C CNN
+F 2 "_connectors1:XBEE-HEADER" H 3415 4410 50  0001 C CNN
+F 3 "" H 3415 4410 50  0001 C CNN
+	1    3515 4410
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CONN_01X10
+D XBEE Pin Header
+K XBEE
+$ENDCMP
+#
+$CMP XBEE-Headers
+D XBEE Pin Header
+K XBEE
+$ENDCMP
+#
+#End Doc Library
