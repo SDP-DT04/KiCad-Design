@@ -293,12 +293,12 @@ Text GLabel 1505 3340 3    39   Input ~ 0
 $Comp
 L C C2
 U 1 1 58AD1F47
-P 1655 2685
-F 0 "C2" H 1680 2785 50  0000 L CNN
-F 1 "0.1uF" H 1680 2585 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 1693 2535 50  0001 C CNN
-F 3 "" H 1655 2685 50  0001 C CNN
-	1    1655 2685
+P 1655 2680
+F 0 "C2" V 1855 2640 50  0000 L CNN
+F 1 "0.1uF" V 1775 2580 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1693 2530 50  0001 C CNN
+F 3 "" H 1655 2680 50  0001 C CNN
+	1    1655 2680
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1805 2685 2    39   Input ~ 0
@@ -309,8 +309,8 @@ $Comp
 L C C1
 U 1 1 58AD24D1
 P 1355 3340
-F 0 "C1" H 1380 3440 50  0000 L CNN
-F 1 "0.1uF" H 1380 3240 50  0000 L CNN
+F 0 "C1" V 1220 3295 50  0000 L CNN
+F 1 "0.1uF" V 1155 3245 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 1393 3190 50  0001 C CNN
 F 3 "" H 1355 3340 50  0001 C CNN
 	1    1355 3340
@@ -460,21 +460,10 @@ Wire Wire Line
 Wire Wire Line
 	10105 1570 10105 1560
 Wire Wire Line
-	1505 2530 1505 2685
-Connection ~ 1505 2575
+	1505 2530 1505 2680
+Connection ~ 1505 2570
 Wire Wire Line
 	1505 3280 1505 3340
-$Comp
-L INA827 U1
-U 1 1 588D6159
-P 1505 2980
-F 0 "U1" H 1655 3105 50  0000 L CNN
-F 1 "INA827" H 1655 2855 50  0000 L CNN
-F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 1655 2780 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina827.pdf" H 1605 2980 50  0001 C CNN
-	1    1505 2980
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	935  3130 1205 3080
 Text GLabel 4970 6690 1    39   Input ~ 0
@@ -489,9 +478,9 @@ SDA2
 NoConn ~ 5470 6690
 NoConn ~ 5570 6690
 NoConn ~ 5670 6690
-Text GLabel 4390 3995 0    39   Input ~ 0
+Text GLabel 10915 2895 2    39   Input ~ 0
 SCL2
-Text GLabel 4725 3895 0    39   Input ~ 0
+Text GLabel 10580 2995 2    39   Input ~ 0
 SDA2
 Text GLabel 5640 2295 0    39   Input ~ 0
 PGED3
@@ -540,11 +529,11 @@ Text GLabel 1030 6320 2    39   Input ~ 0
 SDA1
 Text GLabel 1030 6420 2    39   Input ~ 0
 SCL1
-Text GLabel 10510 3595 2    39   Input ~ 0
+Text GLabel 10555 2495 2    39   Input ~ 0
 SCL1
-Text GLabel 10880 3695 2    39   Input ~ 0
+Text GLabel 10240 2395 2    39   Input ~ 0
 SDA1
-Text GLabel 5640 2095 0    39   Input ~ 0
+Text GLabel 5640 3595 0    39   Input ~ 0
 AN0
 Text GLabel 1905 2980 2    39   Input ~ 0
 AN0
@@ -552,74 +541,74 @@ Text GLabel 9665 1195 2    39   Input ~ 0
 UART2TX
 Text GLabel 9665 1095 2    39   Input ~ 0
 UART2RX
-Text GLabel 9665 2195 2    39   Input ~ 0
+Text GLabel 9665 2795 2    39   Input ~ 0
 UART1RX
-Text GLabel 9665 2295 2    39   Input ~ 0
+Text GLabel 9665 2695 2    39   Input ~ 0
 UART1TX
 Wire Wire Line
-	9665 3595 10510 3595
+	9665 2495 10555 2495
 $Comp
 L R R5
 U 1 1 58AE9BED
-P 10465 3445
-F 0 "R5" V 10545 3445 50  0000 C CNN
-F 1 "4.7k" V 10465 3445 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10395 3445 50  0001 C CNN
-F 3 "" H 10465 3445 50  0001 C CNN
-	1    10465 3445
+P 10525 2345
+F 0 "R5" V 10605 2345 50  0000 C CNN
+F 1 "4.7k" V 10525 2345 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10455 2345 50  0001 C CNN
+F 3 "" H 10525 2345 50  0001 C CNN
+	1    10525 2345
 	1    0    0    -1  
 $EndComp
-Text GLabel 10465 3295 1    39   Input ~ 0
+Text GLabel 10525 2195 1    39   Input ~ 0
 3.3V
-Connection ~ 10465 3595
+Connection ~ 10525 2495
 Wire Wire Line
-	9665 3695 10880 3695
+	9665 2395 10240 2395
 $Comp
 L R R6
 U 1 1 58AEA269
-P 10830 3545
-F 0 "R6" V 10910 3545 50  0000 C CNN
-F 1 "4.7k" V 10830 3545 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10760 3545 50  0001 C CNN
-F 3 "" H 10830 3545 50  0001 C CNN
-	1    10830 3545
+P 10190 2245
+F 0 "R6" V 10270 2245 50  0000 C CNN
+F 1 "4.7k" V 10190 2245 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10120 2245 50  0001 C CNN
+F 3 "" H 10190 2245 50  0001 C CNN
+	1    10190 2245
 	1    0    0    -1  
 $EndComp
-Text GLabel 10830 3395 1    39   Input ~ 0
+Text GLabel 10190 2095 1    39   Input ~ 0
 3.3V
-Connection ~ 10830 3695
+Connection ~ 10190 2395
 Wire Wire Line
-	4725 3895 5640 3895
+	9665 2995 10580 2995
 $Comp
 L R R4
 U 1 1 58AEAF1C
-P 4765 3745
-F 0 "R4" V 4845 3745 50  0000 C CNN
-F 1 "4.7k" V 4765 3745 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4695 3745 50  0001 C CNN
-F 3 "" H 4765 3745 50  0001 C CNN
-	1    4765 3745
-	1    0    0    -1  
+P 10540 2845
+F 0 "R4" V 10620 2845 50  0000 C CNN
+F 1 "4.7k" V 10540 2845 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10470 2845 50  0001 C CNN
+F 3 "" H 10540 2845 50  0001 C CNN
+	1    10540 2845
+	-1   0    0    -1  
 $EndComp
-Text GLabel 4765 3595 1    39   Input ~ 0
+Text GLabel 10540 2695 1    39   Input ~ 0
 3.3V
-Connection ~ 4765 3895
+Connection ~ 10540 2995
 Wire Wire Line
-	4390 3995 5640 3995
+	9665 2895 10915 2895
 $Comp
 L R R3
 U 1 1 58AEB4D6
-P 4430 3845
-F 0 "R3" V 4510 3845 50  0000 C CNN
-F 1 "4.7k" V 4430 3845 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4360 3845 50  0001 C CNN
-F 3 "" H 4430 3845 50  0001 C CNN
-	1    4430 3845
-	-1   0    0    1   
+P 10875 2745
+F 0 "R3" V 10955 2745 50  0000 C CNN
+F 1 "4.7k" V 10875 2745 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10805 2745 50  0001 C CNN
+F 3 "" H 10875 2745 50  0001 C CNN
+	1    10875 2745
+	1    0    0    1   
 $EndComp
-Text GLabel 4430 3695 1    39   Input ~ 0
+Text GLabel 10875 2595 1    39   Input ~ 0
 3.3V
-Connection ~ 4430 3995
+Connection ~ 10875 2895
 Text GLabel 8755 4875 0    39   Input ~ 0
 3.3V
 Text GLabel 9255 4875 2    39   Input ~ 0
@@ -660,4 +649,15 @@ NoConn ~ 7265 5270
 NoConn ~ 7265 5370
 NoConn ~ 7265 5470
 NoConn ~ 7265 5570
+$Comp
+L INA827 U1
+U 1 1 58AF6C20
+P 1505 2980
+F 0 "U1" H 1655 3105 50  0000 L CNN
+F 1 "INA827" H 1655 2855 50  0000 L CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 1655 2780 50  0001 L CNN
+F 3 "" H 1605 2980 50  0001 C CNN
+	1    1505 2980
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
