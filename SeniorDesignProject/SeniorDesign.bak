@@ -133,23 +133,23 @@ $EndComp
 $Comp
 L 7805 U9
 U 1 1 58461699
-P 3340 1665
-F 0 "U9" H 3490 1469 50  0000 C CNN
-F 1 "7805" H 3340 1865 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 3340 1665 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 3340 1665 50  0001 C CNN
-	1    3340 1665
+P 1320 795
+F 0 "U9" H 1470 599 50  0000 C CNN
+F 1 "7805" H 1320 995 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 1320 795 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1320 795 50  0001 C CNN
+	1    1320 795 
 	1    0    0    -1  
 $EndComp
 $Comp
 L 7905 U10
 U 1 1 584617C8
-P 3835 925
-F 0 "U10" H 3985 730 50  0000 C CNN
-F 1 "7905" H 3835 1125 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 3835 925 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7905.pdf" H 3835 925 50  0001 C CNN
-	1    3835 925 
+P 1475 1595
+F 0 "U10" H 1625 1400 50  0000 C CNN
+F 1 "7905" H 1475 1795 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 1475 1595 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm7905.pdf" H 1475 1595 50  0001 C CNN
+	1    1475 1595
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -319,34 +319,23 @@ $EndComp
 $Comp
 L CONN_01X02 P9
 U 1 1 58AD41C9
-P 730 1360
-F 0 "P9" H 730 1510 50  0000 C CNN
-F 1 "Power 2" V 830 1360 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 730 1360 50  0001 C CNN
-F 3 "" H 730 1360 50  0000 C CNN
-	1    730  1360
+P 720 1195
+F 0 "P9" H 720 1345 50  0000 C CNN
+F 1 "Power 2" V 820 1195 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 720 1195 50  0001 C CNN
+F 3 "" H 720 1195 50  0000 C CNN
+	1    720  1195
 	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_02X10 J6
 U 1 1 58ACD0F4
-P 9005 5325
-F 0 "J6" H 9005 5875 50  0000 C CNN
-F 1 "XBEE Header" V 9005 5325 50  0000 C CNN
-F 2 "SeniorDesignFootprints:XBEE-HEADER" H 9005 4125 50  0001 C CNN
-F 3 "" H 9005 4125 50  0001 C CNN
-	1    9005 5325
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_02X06 J5
-U 1 1 58ACD24B
-P 7015 5320
-F 0 "J5" H 7015 5670 50  0000 C CNN
-F 1 "ID-12LA Header" V 7015 5300 39  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x06_Pitch2.54mm" H 7015 4120 50  0001 C CNN
-F 3 "" H 7015 4120 50  0001 C CNN
-	1    7015 5320
+P 3050 5960
+F 0 "J6" H 3050 6510 50  0000 C CNN
+F 1 "XBEE Header" V 3050 5960 50  0000 C CNN
+F 2 "SeniorDesignFootprints:XBEE-HEADER" H 3050 4760 50  0001 C CNN
+F 3 "" H 3050 4760 50  0001 C CNN
+	1    3050 5960
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -391,49 +380,37 @@ Connection ~ 935  2830
 Wire Wire Line
 	935  2830 1205 2880
 Wire Wire Line
-	5015 1580 5335 1580
-Wire Wire Line
-	5335 1580 5485 1580
+	5015 1580 5485 1580
 Wire Wire Line
 	5510 1905 5510 1795
 Wire Wire Line
 	5510 1795 5640 1795
 Wire Wire Line
-	5025 1905 5335 1905
-Wire Wire Line
-	5335 1905 5510 1905
+	5025 1905 5510 1905
 Wire Wire Line
 	5485 1580 5485 1695
 Wire Wire Line
 	5485 1695 5640 1695
 Wire Wire Line
-	5025 2585 5335 2585
-Wire Wire Line
-	5335 2585 5485 2585
+	5025 2585 5485 2585
 Wire Wire Line
 	5510 2905 5510 2795
 Wire Wire Line
 	5510 2795 5640 2795
 Wire Wire Line
-	5015 2905 5335 2905
-Wire Wire Line
-	5335 2905 5510 2905
+	5015 2905 5510 2905
 Wire Wire Line
 	5485 2585 5485 2695
 Wire Wire Line
 	5485 2695 5640 2695
 Wire Wire Line
-	5015 3205 5260 3205
-Wire Wire Line
-	5260 3205 5485 3205
+	5015 3205 5485 3205
 Wire Wire Line
 	5510 3505 5510 3395
 Wire Wire Line
 	5510 3395 5640 3395
 Wire Wire Line
-	5025 3505 5260 3505
-Wire Wire Line
-	5260 3505 5510 3505
+	5025 3505 5510 3505
 Wire Wire Line
 	5485 3205 5485 3295
 Wire Wire Line
@@ -452,13 +429,9 @@ Wire Wire Line
 	5335 1605 5335 1580
 Connection ~ 5335 1580
 Wire Wire Line
-	9665 3195 9870 3195
+	9665 3195 10070 3195
 Wire Wire Line
-	9870 3195 10070 3195
-Wire Wire Line
-	9665 3495 9870 3495
-Wire Wire Line
-	9870 3495 10165 3495
+	9665 3495 10165 3495
 Connection ~ 9870 3195
 Connection ~ 9870 3495
 Wire Wire Line
@@ -476,9 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	10105 1570 10105 1560
 Wire Wire Line
-	1505 2530 1505 2570
-Wire Wire Line
-	1505 2570 1505 2680
+	1505 2530 1505 2680
 Connection ~ 1505 2570
 Wire Wire Line
 	1505 3280 1505 3340
@@ -496,9 +467,9 @@ SDA2
 NoConn ~ 5470 6690
 NoConn ~ 5570 6690
 NoConn ~ 5670 6690
-Text GLabel 10915 2895 2    39   Input ~ 0
+Text GLabel 4390 3995 0    39   Input ~ 0
 SCL2
-Text GLabel 10580 2995 2    39   Input ~ 0
+Text GLabel 4715 3895 0    39   Input ~ 0
 SDA2
 Text GLabel 5640 2295 0    39   Input ~ 0
 PGED3
@@ -547,143 +518,178 @@ Text GLabel 1030 6320 2    39   Input ~ 0
 SDA1
 Text GLabel 1030 6420 2    39   Input ~ 0
 SCL1
-Text GLabel 10555 2495 2    39   Input ~ 0
+Text GLabel 10545 3590 2    39   Input ~ 0
 SCL1
-Text GLabel 10240 2395 2    39   Input ~ 0
+Text GLabel 10880 3695 2    39   Input ~ 0
 SDA1
 Text GLabel 5640 3595 0    39   Input ~ 0
-AN0
+AN13
 Text GLabel 1905 2980 2    39   Input ~ 0
-AN0
+AN13
 Text GLabel 9665 1195 2    39   Input ~ 0
 UART2TX
 Text GLabel 9665 1095 2    39   Input ~ 0
 UART2RX
-Text GLabel 9665 2795 2    39   Input ~ 0
+Text GLabel 9665 2195 2    39   Input ~ 0
 UART1RX
-Text GLabel 9665 2695 2    39   Input ~ 0
+Text GLabel 9665 2295 2    39   Input ~ 0
 UART1TX
 Wire Wire Line
-	9665 2495 10525 2495
-Wire Wire Line
-	10525 2495 10555 2495
+	9665 3695 10880 3695
 $Comp
 L R R5
 U 1 1 58AE9BED
-P 10525 2345
-F 0 "R5" V 10605 2345 50  0000 C CNN
-F 1 "4.7k" V 10525 2345 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10455 2345 50  0001 C CNN
-F 3 "" H 10525 2345 50  0001 C CNN
-	1    10525 2345
+P 10815 3545
+F 0 "R5" V 10895 3545 50  0000 C CNN
+F 1 "4.7k" V 10815 3545 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10745 3545 50  0001 C CNN
+F 3 "" H 10815 3545 50  0001 C CNN
+	1    10815 3545
 	1    0    0    -1  
 $EndComp
-Text GLabel 10525 2195 1    39   Input ~ 0
+Text GLabel 10815 3395 1    39   Input ~ 0
 3.3V
-Connection ~ 10525 2495
+Connection ~ 10815 3695
 Wire Wire Line
-	9665 2395 10190 2395
+	9665 3595 10505 3590
 Wire Wire Line
-	10190 2395 10240 2395
+	10505 3590 10545 3590
 $Comp
 L R R6
 U 1 1 58AEA269
-P 10190 2245
-F 0 "R6" V 10270 2245 50  0000 C CNN
-F 1 "4.7k" V 10190 2245 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10120 2245 50  0001 C CNN
-F 3 "" H 10190 2245 50  0001 C CNN
-	1    10190 2245
+P 10505 3440
+F 0 "R6" V 10585 3440 50  0000 C CNN
+F 1 "4.7k" V 10505 3440 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10435 3440 50  0001 C CNN
+F 3 "" H 10505 3440 50  0001 C CNN
+	1    10505 3440
 	1    0    0    -1  
 $EndComp
-Text GLabel 10190 2095 1    39   Input ~ 0
+Text GLabel 10505 3290 1    39   Input ~ 0
 3.3V
-Connection ~ 10190 2395
+Connection ~ 10505 3590
 Wire Wire Line
-	9665 2995 10540 2995
-Wire Wire Line
-	10540 2995 10580 2995
+	4715 3895 5640 3895
 $Comp
 L R R4
 U 1 1 58AEAF1C
-P 10540 2845
-F 0 "R4" V 10620 2845 50  0000 C CNN
-F 1 "4.7k" V 10540 2845 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10470 2845 50  0001 C CNN
-F 3 "" H 10540 2845 50  0001 C CNN
-	1    10540 2845
-	-1   0    0    -1  
+P 4765 3745
+F 0 "R4" V 4845 3745 50  0000 C CNN
+F 1 "4.7k" V 4765 3745 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4695 3745 50  0001 C CNN
+F 3 "" H 4765 3745 50  0001 C CNN
+	1    4765 3745
+	1    0    0    -1  
 $EndComp
-Text GLabel 10540 2695 1    39   Input ~ 0
+Text GLabel 4765 3595 1    39   Input ~ 0
 3.3V
-Connection ~ 10540 2995
+Connection ~ 4765 3895
 Wire Wire Line
-	9665 2895 10875 2895
-Wire Wire Line
-	10875 2895 10915 2895
+	4390 3995 5640 3995
 $Comp
 L R R3
 U 1 1 58AEB4D6
-P 10875 2745
-F 0 "R3" V 10955 2745 50  0000 C CNN
-F 1 "4.7k" V 10875 2745 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10805 2745 50  0001 C CNN
-F 3 "" H 10875 2745 50  0001 C CNN
-	1    10875 2745
-	1    0    0    1   
+P 4430 3845
+F 0 "R3" V 4510 3845 50  0000 C CNN
+F 1 "4.7k" V 4430 3845 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4360 3845 50  0001 C CNN
+F 3 "" H 4430 3845 50  0001 C CNN
+	1    4430 3845
+	-1   0    0    1   
 $EndComp
-Text GLabel 10875 2595 1    39   Input ~ 0
+Text GLabel 4430 3695 1    39   Input ~ 0
 3.3V
-Connection ~ 10875 2895
-Text GLabel 8755 4875 0    39   Input ~ 0
+Connection ~ 4430 3995
+Text GLabel 2800 5510 0    39   Input ~ 0
 3.3V
-Text GLabel 9255 4875 2    39   Input ~ 0
+Text GLabel 3300 5510 2    39   Input ~ 0
 UART2RX
-Text GLabel 8755 4975 0    39   Input ~ 0
+Text GLabel 2800 5610 0    39   Input ~ 0
 UART2TX
-Text GLabel 9255 5275 2    39   Input ~ 0
+Text GLabel 3300 5910 2    39   Input ~ 0
 GND
-NoConn ~ 9255 4975
-NoConn ~ 9255 5075
-NoConn ~ 9255 5175
-NoConn ~ 9255 5375
-NoConn ~ 9255 5475
-NoConn ~ 9255 5575
-NoConn ~ 9255 5675
-NoConn ~ 9255 5775
-NoConn ~ 8755 5775
-NoConn ~ 8755 5675
-NoConn ~ 8755 5575
-NoConn ~ 8755 5475
-NoConn ~ 8755 5375
-NoConn ~ 8755 5275
-NoConn ~ 8755 5175
-NoConn ~ 8755 5075
-Text GLabel 6765 5070 0    39   Input ~ 0
-+5V
-Text GLabel 6765 5170 0    39   Input ~ 0
-RFID_LED
-Text GLabel 6765 5270 0    39   Input ~ 0
-UART1RX
-NoConn ~ 6765 5370
-Text GLabel 6765 5470 0    39   Input ~ 0
-GND
-NoConn ~ 6765 5570
-Text GLabel 7265 5170 2    39   Input ~ 0
-GND
-NoConn ~ 7265 5270
-NoConn ~ 7265 5370
-NoConn ~ 7265 5470
-NoConn ~ 7265 5570
+NoConn ~ 3300 5610
+NoConn ~ 3300 5710
+NoConn ~ 3300 5810
+NoConn ~ 3300 6010
+NoConn ~ 3300 6110
+NoConn ~ 3300 6210
+NoConn ~ 3300 6310
+NoConn ~ 3300 6410
+NoConn ~ 2800 6410
+NoConn ~ 2800 6310
+NoConn ~ 2800 6210
+NoConn ~ 2800 6110
+NoConn ~ 2800 6010
+NoConn ~ 2800 5910
+NoConn ~ 2800 5810
+NoConn ~ 2800 5710
 $Comp
-L INA827 U?
+L INA827 U1
 U 1 1 58AF6C20
 P 1505 2980
-F 0 "U?" H 1655 3105 50  0000 L CNN
+F 0 "U1" H 1655 3105 50  0000 L CNN
 F 1 "INA827" H 1655 2855 50  0000 L CNN
 F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 1655 2780 50  0001 L CNN
 F 3 "" H 1605 2980 50  0001 C CNN
 	1    1505 2980
 	1    0    0    -1  
 $EndComp
+Text GLabel 1320 1045 3    39   Input ~ 0
+GND
+Text GLabel 1720 745  2    39   Input ~ 0
++5V
+$Comp
+L LM1117-3.3 U?
+U 1 1 58B786AE
+P 2585 1095
+F 0 "U?" H 2685 845 50  0000 C CNN
+F 1 "LM1117-3.3" H 2585 1345 50  0000 C CNN
+F 2 "" H 2585 1095 50  0001 C CNN
+F 3 "" H 2585 1095 50  0001 C CNN
+	1    2585 1095
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	920  845  920  1145
+Text GLabel 935  995  2    39   Input ~ 0
+GND
+Wire Wire Line
+	935  995  920  995 
+Connection ~ 920  995 
+Wire Wire Line
+	920  1245 920  1545
+Wire Wire Line
+	920  1545 1075 1545
+Text GLabel 1475 1845 3    39   Input ~ 0
+GND
+Text GLabel 1875 1545 2    39   Input ~ 0
+-5V
+Text GLabel 2285 1095 0    39   Input ~ 0
++5V
+Text GLabel 2585 1395 3    39   Input ~ 0
+GND
+Text GLabel 2885 1095 2    39   Input ~ 0
+3.3V
+$Comp
+L CONN_01X05 J?
+U 1 1 58B7990D
+P 3100 7265
+F 0 "J?" H 3100 7565 50  0000 C CNN
+F 1 "ID-12LA Header" V 3200 7265 50  0000 C CNN
+F 2 "" H 3100 7265 50  0001 C CNN
+F 3 "" H 3100 7265 50  0001 C CNN
+	1    3100 7265
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 7065 0    39   Input ~ 0
++5V
+Text GLabel 2900 7165 0    39   Input ~ 0
+GND
+Text GLabel 2900 7265 0    39   Input ~ 0
+LED
+Text GLabel 2900 7365 0    39   Input ~ 0
+UART1RX
+Text GLabel 2900 7465 0    39   Input ~ 0
+CP
 $EndSCHEMATC
