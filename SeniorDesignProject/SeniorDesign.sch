@@ -133,23 +133,23 @@ $EndComp
 $Comp
 L 7805 U9
 U 1 1 58461699
-P 1320 795
-F 0 "U9" H 1470 599 50  0000 C CNN
-F 1 "7805" H 1320 995 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 1320 795 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1320 795 50  0001 C CNN
-	1    1320 795 
+P 1620 785
+F 0 "U9" H 1770 589 50  0000 C CNN
+F 1 "7805" H 1620 985 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1620 785 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
+	1    1620 785 
 	1    0    0    -1  
 $EndComp
 $Comp
 L 7905 U10
 U 1 1 584617C8
-P 1475 1595
-F 0 "U10" H 1625 1400 50  0000 C CNN
-F 1 "7905" H 1475 1795 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-220_Horizontal" H 1475 1595 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7905.pdf" H 1475 1595 50  0001 C CNN
-	1    1475 1595
+P 1655 1590
+F 0 "U10" H 1805 1395 50  0000 C CNN
+F 1 "7905" H 1655 1790 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1655 1590 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm7905.pdf" H 1655 1590 50  0001 C CNN
+	1    1655 1590
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -530,7 +530,7 @@ Text GLabel 9665 1195 2    39   Input ~ 0
 UART2TX
 Text GLabel 9665 1095 2    39   Input ~ 0
 UART2RX
-Text GLabel 9665 2195 2    39   Input ~ 0
+Text GLabel 9665 2695 2    39   Input ~ 0
 UART1RX
 Text GLabel 9665 2295 2    39   Input ~ 0
 UART1TX
@@ -635,9 +635,9 @@ F 3 "" H 1605 2980 50  0001 C CNN
 	1    1505 2980
 	1    0    0    -1  
 $EndComp
-Text GLabel 1320 1045 3    39   Input ~ 0
+Text GLabel 1620 1035 3    39   Input ~ 0
 GND
-Text GLabel 1720 745  2    39   Input ~ 0
+Text GLabel 2020 735  2    39   Input ~ 0
 +5V
 $Comp
 L LM1117-3.3 U2
@@ -661,9 +661,9 @@ Wire Wire Line
 	920  1245 920  1545
 Wire Wire Line
 	920  1545 1075 1545
-Text GLabel 1475 1845 3    39   Input ~ 0
+Text GLabel 1655 1840 3    39   Input ~ 0
 GND
-Text GLabel 1875 1545 2    39   Input ~ 0
+Text GLabel 2055 1540 2    39   Input ~ 0
 -5V
 Text GLabel 2285 1095 0    39   Input ~ 0
 +5V
@@ -692,4 +692,12 @@ Text GLabel 2900 7365 0    39   Input ~ 0
 UART1RX
 Text GLabel 2900 7465 0    39   Input ~ 0
 CP
+Text GLabel 920  745  1    39   Input ~ 0
++9V
+Text GLabel 1220 735  1    39   Input ~ 0
++9V
+Text GLabel 1075 1545 1    39   Input ~ 0
+-9V
+Text GLabel 1255 1540 1    39   Input ~ 0
+-9V
 $EndSCHEMATC
