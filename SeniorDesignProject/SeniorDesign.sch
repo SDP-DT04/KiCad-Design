@@ -131,28 +131,6 @@ F 3 "" H 720 795 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 7805 U9
-U 1 1 58461699
-P 1620 785
-F 0 "U9" H 1770 589 50  0000 C CNN
-F 1 "7805" H 1620 985 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1620 785 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
-	1    1620 785 
-	1    0    0    -1  
-$EndComp
-$Comp
-L 7905 U10
-U 1 1 584617C8
-P 1655 1590
-F 0 "U10" H 1805 1395 50  0000 C CNN
-F 1 "7905" H 1655 1790 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1655 1590 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7905.pdf" H 1655 1590 50  0001 C CNN
-	1    1655 1590
-	1    0    0    -1  
-$EndComp
-$Comp
 L RJ45 J1
 U 1 1 584637CE
 P 4065 7150
@@ -317,17 +295,6 @@ F 3 "" H 1355 3340 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X02 P9
-U 1 1 58AD41C9
-P 720 1195
-F 0 "P9" H 720 1345 50  0000 C CNN
-F 1 "Power 2" V 820 1195 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock" H 720 1195 50  0001 C CNN
-F 3 "" H 720 1195 50  0000 C CNN
-	1    720  1195
-	-1   0    0    1   
-$EndComp
-$Comp
 L CONN_02X10 J6
 U 1 1 58ACD0F4
 P 3050 5960
@@ -337,17 +304,6 @@ F 2 "SeniorDesignFootprints:XBEE-HEADER" H 3050 4760 50  0001 C CNN
 F 3 "" H 3050 4760 50  0001 C CNN
 	1    3050 5960
 	1    0    0    -1  
-$EndComp
-$Comp
-L RJ11 J4
-U 1 1 58ACD97B
-P 6495 7155
-F 0 "J4" H 6695 7655 60  0000 C CNN
-F 1 "RJ11(ICD3)" H 6345 7655 60  0000 C CNN
-F 2 "SeniorDesignFootprints:RJ11-6" H 6495 7155 60  0001 C CNN
-F 3 "" H 6495 7155 60  0001 C CNN
-	1    6495 7155
-	1    0    0    1   
 $EndComp
 $Comp
 L CONN_01X06 J3
@@ -475,17 +431,6 @@ Text GLabel 5640 2295 0    39   Input ~ 0
 PGED3
 Text GLabel 5640 2395 0    39   Input ~ 0
 PGEC3
-Text GLabel 6295 6705 1    39   Input ~ 0
-MCLR
-Text GLabel 6395 6705 1    39   Input ~ 0
-3.3V
-Text GLabel 6495 6705 1    39   Input ~ 0
-GND
-Text GLabel 6595 6705 1    39   Input ~ 0
-PGED3
-Text GLabel 6695 6705 1    39   Input ~ 0
-PGEC3
-NoConn ~ 6795 6705
 Text GLabel 1015 5130 2    39   Input ~ 0
 MCLR
 Text GLabel 1015 5230 2    39   Input ~ 0
@@ -635,10 +580,6 @@ F 3 "" H 1605 2980 50  0001 C CNN
 	1    1505 2980
 	1    0    0    -1  
 $EndComp
-Text GLabel 1620 1035 3    39   Input ~ 0
-GND
-Text GLabel 2020 735  2    39   Input ~ 0
-+5V
 $Comp
 L LM1117-3.3 U2
 U 1 1 58B786AE
@@ -650,21 +591,8 @@ F 3 "" H 2585 1095 50  0001 C CNN
 	1    2585 1095
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	920  845  920  1145
-Text GLabel 935  995  2    39   Input ~ 0
+Text GLabel 920  845  3    39   Input ~ 0
 GND
-Wire Wire Line
-	935  995  920  995 
-Connection ~ 920  995 
-Wire Wire Line
-	920  1245 920  1545
-Wire Wire Line
-	920  1545 1075 1545
-Text GLabel 1655 1840 3    39   Input ~ 0
-GND
-Text GLabel 2055 1540 2    39   Input ~ 0
--5V
 Text GLabel 2285 1095 0    39   Input ~ 0
 +5V
 Text GLabel 2585 1395 3    39   Input ~ 0
@@ -694,10 +622,38 @@ Text GLabel 2900 7465 0    39   Input ~ 0
 CP
 Text GLabel 920  745  1    39   Input ~ 0
 +9V
+$Comp
+L ICL7660 U3
+U 1 1 58B9FDD5
+P 2730 2230
+F 0 "U3" H 2530 2730 50  0000 C CNN
+F 1 "ICL7660" H 3130 1730 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 2830 2130 50  0001 C CNN
+F 3 "" H 2830 2130 50  0001 C CNN
+	1    2730 2230
+	1    0    0    -1  
+$EndComp
+Text GLabel 2730 2730 3    39   Input ~ 0
+GND
+Text GLabel 2330 1930 0    39   Input ~ 0
++5V
+Text GLabel 3130 1930 2    39   Input ~ 0
+-5V
+Text GLabel 1620 1035 3    39   Input ~ 0
+GND
+Text GLabel 2020 735  2    39   Input ~ 0
++5V
 Text GLabel 1220 735  1    39   Input ~ 0
 +9V
-Text GLabel 1075 1545 1    39   Input ~ 0
--9V
-Text GLabel 1255 1540 1    39   Input ~ 0
--9V
+$Comp
+L 7805 U9
+U 1 1 58461699
+P 1620 785
+F 0 "U9" H 1770 589 50  0000 C CNN
+F 1 "7805" H 1620 985 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1620 785 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
+	1    1620 785 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
