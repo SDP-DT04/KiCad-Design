@@ -306,17 +306,6 @@ F 3 "" H 3050 4760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ11 J4
-U 1 1 58ACD97B
-P 6495 7155
-F 0 "J4" H 6695 7655 60  0000 C CNN
-F 1 "RJ11(ICD3)" H 6345 7655 60  0000 C CNN
-F 2 "SeniorDesignFootprints:RJ11-6" H 6495 7155 60  0001 C CNN
-F 3 "" H 6495 7155 60  0001 C CNN
-	1    6495 7155
-	1    0    0    1   
-$EndComp
-$Comp
 L CONN_01X06 J3
 U 1 1 58ACED75
 P 815 5380
@@ -442,17 +431,6 @@ Text GLabel 5640 2295 0    39   Input ~ 0
 PGED3
 Text GLabel 5640 2395 0    39   Input ~ 0
 PGEC3
-Text GLabel 6295 6705 1    39   Input ~ 0
-MCLR
-Text GLabel 6395 6705 1    39   Input ~ 0
-3.3V
-Text GLabel 6495 6705 1    39   Input ~ 0
-GND
-Text GLabel 6595 6705 1    39   Input ~ 0
-PGED3
-Text GLabel 6695 6705 1    39   Input ~ 0
-PGEC3
-NoConn ~ 6795 6705
 Text GLabel 1015 5130 2    39   Input ~ 0
 MCLR
 Text GLabel 1015 5230 2    39   Input ~ 0
