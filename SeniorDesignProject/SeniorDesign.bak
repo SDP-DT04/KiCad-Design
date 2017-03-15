@@ -411,26 +411,12 @@ Wire Wire Line
 	1505 3280 1505 3340
 Wire Wire Line
 	935  3130 1205 3080
-Text GLabel 4970 6690 1    39   Input ~ 0
-3.3V
-Text GLabel 5070 6690 1    39   Input ~ 0
+Text GLabel 5470 6690 1    39   Input ~ 0
 GND
-NoConn ~ 5170 6690
-Text GLabel 5270 6690 1    39   Input ~ 0
-SCL2
-Text GLabel 5370 6690 1    39   Input ~ 0
-SDA2
-NoConn ~ 5470 6690
-NoConn ~ 5570 6690
-NoConn ~ 5670 6690
-Text GLabel 4390 3995 0    39   Input ~ 0
-SCL2
-Text GLabel 4715 3895 0    39   Input ~ 0
-SDA2
-Text GLabel 5640 2295 0    39   Input ~ 0
-PGED3
-Text GLabel 5640 2395 0    39   Input ~ 0
-PGEC3
+Text GLabel 9665 2995 2    39   Input ~ 0
+PGED2
+Text GLabel 9665 2895 2    39   Input ~ 0
+PGEC2
 Text GLabel 1015 5130 2    39   Input ~ 0
 MCLR
 Text GLabel 1015 5230 2    39   Input ~ 0
@@ -456,9 +442,9 @@ $EndComp
 Text GLabel 1030 6020 2    39   Input ~ 0
 3.3V
 Text GLabel 1030 6120 2    39   Input ~ 0
-+5V(2)
++5V
 Text GLabel 1030 6220 2    39   Input ~ 0
-GND(2)
+GND
 Text GLabel 1030 6320 2    39   Input ~ 0
 SDA1
 Text GLabel 1030 6420 2    39   Input ~ 0
@@ -513,38 +499,6 @@ $EndComp
 Text GLabel 10505 3290 1    39   Input ~ 0
 3.3V
 Connection ~ 10505 3590
-Wire Wire Line
-	4715 3895 5640 3895
-$Comp
-L R R4
-U 1 1 58AEAF1C
-P 4765 3745
-F 0 "R4" V 4845 3745 50  0000 C CNN
-F 1 "4.7k" V 4765 3745 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4695 3745 50  0001 C CNN
-F 3 "" H 4765 3745 50  0001 C CNN
-	1    4765 3745
-	1    0    0    -1  
-$EndComp
-Text GLabel 4765 3595 1    39   Input ~ 0
-3.3V
-Connection ~ 4765 3895
-Wire Wire Line
-	4390 3995 5640 3995
-$Comp
-L R R3
-U 1 1 58AEB4D6
-P 4430 3845
-F 0 "R3" V 4510 3845 50  0000 C CNN
-F 1 "4.7k" V 4430 3845 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4360 3845 50  0001 C CNN
-F 3 "" H 4430 3845 50  0001 C CNN
-	1    4430 3845
-	-1   0    0    1   
-$EndComp
-Text GLabel 4430 3695 1    39   Input ~ 0
-3.3V
-Connection ~ 4430 3995
 Text GLabel 2800 5510 0    39   Input ~ 0
 3.3V
 Text GLabel 3300 5510 2    39   Input ~ 0
@@ -628,7 +582,7 @@ U 1 1 58B9FDD5
 P 2730 2230
 F 0 "U3" H 2530 2730 50  0000 C CNN
 F 1 "ICL7660" H 3130 1730 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 2830 2130 50  0001 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2830 2130 50  0001 C CNN
 F 3 "" H 2830 2130 50  0001 C CNN
 	1    2730 2230
 	1    0    0    -1  
@@ -656,4 +610,24 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
 	1    1620 785 
 	1    0    0    -1  
 $EndComp
+Text GLabel 5640 2295 0    39   Input ~ 0
+SS1
+Text GLabel 9665 3995 2    39   Input ~ 0
+SDO1
+Text GLabel 9665 3895 2    39   Input ~ 0
+SDI1
+Text GLabel 9665 3795 2    39   Input ~ 0
+SCK1
+Text GLabel 5670 6690 1    39   Input ~ 0
+3.3V
+Text GLabel 5570 6690 1    39   Input ~ 0
+SS1
+Text GLabel 5370 6690 1    39   Input ~ 0
+SDO1
+Text GLabel 5170 6690 1    39   Input ~ 0
+SCK1
+Text GLabel 4970 6690 1    39   Input ~ 0
+SDI1
+NoConn ~ 5070 6690
+NoConn ~ 5270 6690
 $EndSCHEMATC
