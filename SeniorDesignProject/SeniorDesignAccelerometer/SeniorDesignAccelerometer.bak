@@ -28,6 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:SeniorDesignSchematics
+LIBS:SeniorDesignAccelerometer-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -42,58 +44,58 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_02X05 J?
-U 1 1 58C45E17
-P 5940 3645
-F 0 "J?" H 5940 3945 50  0000 C CNN
-F 1 "CONN_02X05" H 5940 3345 50  0000 C CNN
-F 2 "" H 5940 2445 50  0001 C CNN
-F 3 "" H 5940 2445 50  0001 C CNN
-	1    5940 3645
-	1    0    0    -1  
-$EndComp
-Text GLabel 5690 3445 0    39   Input ~ 0
-SDO(MISO)
-Text GLabel 5690 3545 0    39   Input ~ 0
+Text GLabel 5560 3180 0    39   Input ~ 0
+MISO
+Text GLabel 5560 3280 0    39   Input ~ 0
 TEST
-Text GLabel 5690 3645 0    39   Input ~ 0
+Text GLabel 5560 3380 0    39   Input ~ 0
 AVDD
-Text GLabel 5690 3745 0    39   Input ~ 0
+Text GLabel 5560 3480 0    39   Input ~ 0
 VPP
-Text GLabel 5690 3845 0    39   Input ~ 0
+Text GLabel 5560 3580 0    39   Input ~ 0
 INT
-Text GLabel 6190 3845 2    39   Input ~ 0
-SCL(SCK)
-Text GLabel 6190 3745 2    39   Input ~ 0
-SDA(MOSI)
-Text GLabel 6190 3645 2    39   Input ~ 0
+Text GLabel 6335 3580 2    39   Input ~ 0
+SCK
+Text GLabel 6335 3480 2    39   Input ~ 0
+MOSI
+Text GLabel 6335 3380 2    39   Input ~ 0
 GND
-Text GLabel 6190 3545 2    39   Input ~ 0
-DVDD
-Text GLabel 6190 3445 2    39   Input ~ 0
-SCS(CSN)(SS)
+Text GLabel 6335 3280 2    39   Input ~ 0
++3.3V
+Text GLabel 6335 3180 2    39   Input ~ 0
+SS
 $Comp
-L RJ45 J?
+L RJ45 J2
 U 1 1 58C46065
-P 8355 2730
-F 0 "J?" H 8555 3230 50  0000 C CNN
-F 1 "RJ45" H 8205 3230 50  0000 C CNN
-F 2 "" H 8355 2730 50  0001 C CNN
-F 3 "" H 8355 2730 50  0001 C CNN
-	1    8355 2730
+P 5810 5840
+F 0 "J2" H 6010 6340 50  0000 C CNN
+F 1 "RJ45" H 5660 6340 50  0000 C CNN
+F 2 "Connect:RJ45_8" H 5810 5840 50  0001 C CNN
+F 3 "" H 5810 5840 50  0001 C CNN
+	1    5810 5840
+	-1   0    0    1   
+$EndComp
+Text GLabel 6160 5390 1    39   Input ~ 0
++3.3V
+Text GLabel 5960 5390 1    39   Input ~ 0
+GND
+Text GLabel 5660 5390 1    39   Input ~ 0
+SCK
+Text GLabel 5460 5390 1    39   Input ~ 0
+MISO
+Text GLabel 5860 5390 1    39   Input ~ 0
+MOSI
+Text GLabel 6060 5390 1    39   Input ~ 0
+SS
+$Comp
+L EV3635A J?
+U 1 1 58CC7116
+P 5960 3380
+F 0 "J?" H 5960 3055 50  0000 C CNN
+F 1 "EV3635A" H 5960 3680 50  0000 C CNN
+F 2 "" H 5960 2180 50  0001 C CNN
+F 3 "" H 5960 2180 50  0001 C CNN
+	1    5960 3380
 	1    0    0    -1  
 $EndComp
-Text GLabel 8005 3180 3    39   Input ~ 0
-DVDD
-Text GLabel 8105 3180 3    39   Input ~ 0
-GND
-Text GLabel 8305 3180 3    39   Input ~ 0
-SCL(SCK)
-Text GLabel 8505 3180 3    39   Input ~ 0
-SDA(MOSI)
-Text GLabel 8605 3180 3    39   Input ~ 0
-SDO(MISO)
-Text GLabel 8405 3180 3    39   Input ~ 0
-SCS(CSN)(SS)
 $EndSCHEMATC

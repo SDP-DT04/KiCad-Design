@@ -279,7 +279,7 @@ F 3 "" H 1655 2680 50  0001 C CNN
 	1    1655 2680
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1805 2685 2    39   Input ~ 0
+Text GLabel 1805 2680 2    39   Input ~ 0
 GND
 Text GLabel 1205 3340 3    39   Input ~ 0
 GND
@@ -611,23 +611,23 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5640 2295 0    39   Input ~ 0
-SS1
+SS
 Text GLabel 9665 3995 2    39   Input ~ 0
-SDO1
+MOSI
 Text GLabel 9665 3895 2    39   Input ~ 0
-SDI1
+MISO
 Text GLabel 9665 3795 2    39   Input ~ 0
-SCK1
+SCK
 Text GLabel 5670 6690 1    39   Input ~ 0
 3.3V
 Text GLabel 5570 6690 1    39   Input ~ 0
-SS1
+SS
 Text GLabel 5370 6690 1    39   Input ~ 0
-SDO1
+MOSI
 Text GLabel 5170 6690 1    39   Input ~ 0
-SCK1
+SCK
 Text GLabel 4970 6690 1    39   Input ~ 0
-SDI1
+MISO
 NoConn ~ 5070 6690
 NoConn ~ 5270 6690
 Text GLabel 5460 1495 1    39   Input ~ 0

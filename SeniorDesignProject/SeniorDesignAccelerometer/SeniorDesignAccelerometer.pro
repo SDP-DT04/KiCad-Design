@@ -1,6 +1,6 @@
-update=Sat 11 Mar 2017 04:25:57 PM EST
+update=Fri 17 Mar 2017 06:47:11 PM EDT
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=/home/hingle/GitHub Repositories/KiCad-Design/SeniorDesignLibraries/SeniorDesignSchematics

@@ -279,7 +279,7 @@ F 3 "" H 1655 2680 50  0001 C CNN
 	1    1655 2680
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1805 2685 2    39   Input ~ 0
+Text GLabel 1805 2680 2    39   Input ~ 0
 GND
 Text GLabel 1205 3340 3    39   Input ~ 0
 GND
@@ -424,9 +424,9 @@ Text GLabel 1015 5230 2    39   Input ~ 0
 Text GLabel 1015 5330 2    39   Input ~ 0
 GND
 Text GLabel 1015 5430 2    39   Input ~ 0
-PGED3
+PGED2
 Text GLabel 1015 5530 2    39   Input ~ 0
-PGEC3
+PGEC2
 NoConn ~ 1015 5630
 $Comp
 L CONN_01X05 J7
@@ -613,9 +613,9 @@ $EndComp
 Text GLabel 5640 2295 0    39   Input ~ 0
 SS1
 Text GLabel 9665 3995 2    39   Input ~ 0
-SDO1
+MOSI1
 Text GLabel 9665 3895 2    39   Input ~ 0
-SDI1
+MISO1
 Text GLabel 9665 3795 2    39   Input ~ 0
 SCK1
 Text GLabel 5670 6690 1    39   Input ~ 0
@@ -623,11 +623,13 @@ Text GLabel 5670 6690 1    39   Input ~ 0
 Text GLabel 5570 6690 1    39   Input ~ 0
 SS1
 Text GLabel 5370 6690 1    39   Input ~ 0
-SDO1
+MOSI1
 Text GLabel 5170 6690 1    39   Input ~ 0
 SCK1
 Text GLabel 4970 6690 1    39   Input ~ 0
-SDI1
+MISO1
 NoConn ~ 5070 6690
 NoConn ~ 5270 6690
+Text GLabel 5460 1495 1    39   Input ~ 0
+MCLR
 $EndSCHEMATC

@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EV3635A
+D Connector for EV3635A
+K EV3635A
+$ENDCMP
+#
+$CMP INA827
+D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-8 package
+K Instrumentation OpAmp
+F http://www.ti.com/lit/ds/symlink/ina827.pdf
+$ENDCMP
+#
 $CMP XBEE-Headers
 D XBEE Pin Header
 K XBEE
