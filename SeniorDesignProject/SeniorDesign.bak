@@ -213,7 +213,7 @@ U 1 1 58ACA467
 P 9960 1695
 F 0 "C8" V 10090 1665 50  0000 L CNN
 F 1 "4.7uF" V 10170 1635 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_4x4.5" H 9998 1545 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9998 1545 50  0001 C CNN
 F 3 "" H 9960 1695 50  0001 C CNN
 	1    9960 1695
 	0    -1   1    0   
@@ -611,25 +611,57 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 5640 2295 0    39   Input ~ 0
-SS1
+SS
 Text GLabel 9665 3995 2    39   Input ~ 0
-MOSI1
+MOSI
 Text GLabel 9665 3895 2    39   Input ~ 0
-MISO1
+MISO
 Text GLabel 9665 3795 2    39   Input ~ 0
-SCK1
+SCK
 Text GLabel 5670 6690 1    39   Input ~ 0
 3.3V
 Text GLabel 5570 6690 1    39   Input ~ 0
-SS1
+SS
 Text GLabel 5370 6690 1    39   Input ~ 0
-MOSI1
+MOSI
 Text GLabel 5170 6690 1    39   Input ~ 0
-SCK1
+SCK
 Text GLabel 4970 6690 1    39   Input ~ 0
-MISO1
+MISO
 NoConn ~ 5070 6690
 NoConn ~ 5270 6690
 Text GLabel 5460 1495 1    39   Input ~ 0
 MCLR
+$Comp
+L C C9
+U 1 1 58D03AE9
+P 3130 2280
+F 0 "C9" H 3155 2380 50  0000 L CNN
+F 1 "10u" H 3155 2180 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3168 2130 50  0001 C CNN
+F 3 "" H 3130 2280 50  0001 C CNN
+	1    3130 2280
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3130 2530 3130 2430
+Wire Wire Line
+	3110 1930 3110 2020
+Wire Wire Line
+	3110 2020 3560 2020
+Wire Wire Line
+	3560 2020 3560 2145
+$Comp
+L C C10
+U 1 1 58D03E25
+P 3560 2295
+F 0 "C10" H 3585 2395 50  0000 L CNN
+F 1 "10u" H 3585 2195 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3598 2145 50  0001 C CNN
+F 3 "" H 3560 2295 50  0001 C CNN
+	1    3560 2295
+	1    0    0    -1  
+$EndComp
+Text GLabel 3560 2445 3    39   Input ~ 0
+GND
 $EndSCHEMATC

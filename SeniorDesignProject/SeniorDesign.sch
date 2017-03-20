@@ -213,7 +213,7 @@ U 1 1 58ACA467
 P 9960 1695
 F 0 "C8" V 10090 1665 50  0000 L CNN
 F 1 "4.7uF" V 10170 1635 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_4x4.5" H 9998 1545 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9998 1545 50  0001 C CNN
 F 3 "" H 9960 1695 50  0001 C CNN
 	1    9960 1695
 	0    -1   1    0   
@@ -591,7 +591,7 @@ Text GLabel 2730 2730 3    39   Input ~ 0
 GND
 Text GLabel 2330 1930 0    39   Input ~ 0
 +5V
-Text GLabel 3130 1930 2    39   Input ~ 0
+Text GLabel 3210 1930 2    39   Input ~ 0
 -5V
 Text GLabel 1620 1035 3    39   Input ~ 0
 GND
@@ -632,4 +632,42 @@ NoConn ~ 5070 6690
 NoConn ~ 5270 6690
 Text GLabel 5460 1495 1    39   Input ~ 0
 MCLR
+$Comp
+L C C9
+U 1 1 58D03AE9
+P 3130 2280
+F 0 "C9" H 3155 2380 50  0000 L CNN
+F 1 "10u" H 3155 2180 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3168 2130 50  0001 C CNN
+F 3 "" H 3130 2280 50  0001 C CNN
+	1    3130 2280
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3130 2530 3130 2430
+Wire Wire Line
+	3560 2020 3560 2145
+$Comp
+L C C10
+U 1 1 58D03E25
+P 3560 2295
+F 0 "C10" H 3585 2395 50  0000 L CNN
+F 1 "10u" H 3585 2195 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3598 2145 50  0001 C CNN
+F 3 "" H 3560 2295 50  0001 C CNN
+	1    3560 2295
+	1    0    0    -1  
+$EndComp
+Text GLabel 3560 2445 3    39   Input ~ 0
+GND
+Wire Wire Line
+	3130 1930 3130 2020
+Wire Wire Line
+	3130 2020 3560 2020
+Wire Wire Line
+	3210 1930 3130 1930
+Text GLabel 9665 2595 2    39   Input ~ 0
+LED
+Text GLabel 9665 2395 2    39   Input ~ 0
+CP
 $EndSCHEMATC
