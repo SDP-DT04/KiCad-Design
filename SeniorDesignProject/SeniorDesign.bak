@@ -591,7 +591,7 @@ Text GLabel 2730 2730 3    39   Input ~ 0
 GND
 Text GLabel 2330 1930 0    39   Input ~ 0
 +5V
-Text GLabel 3130 1930 2    39   Input ~ 0
+Text GLabel 3210 1930 2    39   Input ~ 0
 -5V
 Text GLabel 1620 1035 3    39   Input ~ 0
 GND
@@ -646,10 +646,6 @@ $EndComp
 Wire Wire Line
 	3130 2530 3130 2430
 Wire Wire Line
-	3110 1930 3110 2020
-Wire Wire Line
-	3110 2020 3560 2020
-Wire Wire Line
 	3560 2020 3560 2145
 $Comp
 L C C10
@@ -664,4 +660,14 @@ F 3 "" H 3560 2295 50  0001 C CNN
 $EndComp
 Text GLabel 3560 2445 3    39   Input ~ 0
 GND
+Wire Wire Line
+	3130 1930 3130 2020
+Wire Wire Line
+	3130 2020 3560 2020
+Wire Wire Line
+	3210 1930 3130 1930
+Text GLabel 9665 2595 2    39   Input ~ 0
+LED
+Text GLabel 9665 2395 2    39   Input ~ 0
+CP
 $EndSCHEMATC
