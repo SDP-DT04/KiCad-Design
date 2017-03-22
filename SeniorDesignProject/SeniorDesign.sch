@@ -213,7 +213,7 @@ U 1 1 58ACA467
 P 9960 1695
 F 0 "C8" V 10090 1665 50  0000 L CNN
 F 1 "10uF" V 10170 1635 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9998 1545 50  0001 C CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 9998 1545 50  0001 C CNN
 F 3 "" H 9960 1695 50  0001 C CNN
 	1    9960 1695
 	0    -1   1    0   
@@ -332,6 +332,269 @@ Text GLabel 1205 2780 0    39   Input ~ 0
 A+
 Text GLabel 1205 3180 0    39   Input ~ 0
 A-
+Text GLabel 5470 6690 1    39   Input ~ 0
+GND
+Text GLabel 9665 2995 2    39   Input ~ 0
+PGED2
+Text GLabel 9665 2895 2    39   Input ~ 0
+PGEC2
+Text GLabel 1015 5130 2    39   Input ~ 0
+MCLR
+Text GLabel 1015 5230 2    39   Input ~ 0
+3.3V
+Text GLabel 1015 5330 2    39   Input ~ 0
+GND
+Text GLabel 1015 5430 2    39   Input ~ 0
+PGED2
+Text GLabel 1015 5530 2    39   Input ~ 0
+PGEC2
+NoConn ~ 1015 5630
+$Comp
+L CONN_01X05 J7
+U 1 1 58AE524D
+P 830 6220
+F 0 "J7" H 830 6520 50  0000 C CNN
+F 1 "7-Segment Display" V 930 6220 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x05_Pitch2.54mm" H 830 6220 50  0001 C CNN
+F 3 "" H 830 6220 50  0001 C CNN
+	1    830  6220
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1030 6020 2    39   Input ~ 0
+3.3V
+Text GLabel 1030 6120 2    39   Input ~ 0
++5V
+Text GLabel 1030 6220 2    39   Input ~ 0
+GND
+Text GLabel 1030 6320 2    39   Input ~ 0
+SDA1
+Text GLabel 1030 6420 2    39   Input ~ 0
+SCL1
+Text GLabel 10545 3590 2    39   Input ~ 0
+SCL1
+Text GLabel 10880 3695 2    39   Input ~ 0
+SDA1
+Text GLabel 5640 3595 0    39   Input ~ 0
+AN13
+Text GLabel 1905 2980 2    39   Input ~ 0
+AN13
+Text GLabel 9665 1195 2    39   Input ~ 0
+UART2TX
+Text GLabel 9665 1095 2    39   Input ~ 0
+UART2RX
+Text GLabel 9665 2695 2    39   Input ~ 0
+UART1RX
+Text GLabel 9665 2295 2    39   Input ~ 0
+UART1TX
+$Comp
+L R R5
+U 1 1 58AE9BED
+P 10815 3545
+F 0 "R5" V 10895 3545 50  0000 C CNN
+F 1 "4.7k" V 10815 3545 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10745 3545 50  0001 C CNN
+F 3 "" H 10815 3545 50  0001 C CNN
+	1    10815 3545
+	1    0    0    -1  
+$EndComp
+Text GLabel 10815 3395 1    39   Input ~ 0
+3.3V
+$Comp
+L R R6
+U 1 1 58AEA269
+P 10505 3440
+F 0 "R6" V 10585 3440 50  0000 C CNN
+F 1 "4.7k" V 10505 3440 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 10435 3440 50  0001 C CNN
+F 3 "" H 10505 3440 50  0001 C CNN
+	1    10505 3440
+	1    0    0    -1  
+$EndComp
+Text GLabel 10505 3290 1    39   Input ~ 0
+3.3V
+Text GLabel 2800 5510 0    39   Input ~ 0
+3.3V
+Text GLabel 3300 5510 2    39   Input ~ 0
+UART2RX
+Text GLabel 2800 5610 0    39   Input ~ 0
+UART2TX
+Text GLabel 3300 5910 2    39   Input ~ 0
+GND
+NoConn ~ 3300 5610
+NoConn ~ 3300 5710
+NoConn ~ 3300 5810
+NoConn ~ 3300 6010
+NoConn ~ 3300 6110
+NoConn ~ 3300 6210
+NoConn ~ 3300 6310
+NoConn ~ 3300 6410
+NoConn ~ 2800 6410
+NoConn ~ 2800 6310
+NoConn ~ 2800 6210
+NoConn ~ 2800 6110
+NoConn ~ 2800 6010
+NoConn ~ 2800 5910
+NoConn ~ 2800 5810
+NoConn ~ 2800 5710
+$Comp
+L INA827 U1
+U 1 1 58AF6C20
+P 1505 2980
+F 0 "U1" H 1655 3105 50  0000 L CNN
+F 1 "INA827" H 1655 2855 50  0000 L CNN
+F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 1655 2780 50  0001 L CNN
+F 3 "" H 1605 2980 50  0001 C CNN
+	1    1505 2980
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM1117-3.3 U2
+U 1 1 58B786AE
+P 2585 1095
+F 0 "U2" H 2685 845 50  0000 C CNN
+F 1 "LM1117-3.3" H 2585 1345 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 2585 1095 50  0001 C CNN
+F 3 "" H 2585 1095 50  0001 C CNN
+	1    2585 1095
+	1    0    0    -1  
+$EndComp
+Text GLabel 920  845  3    39   Input ~ 0
+GND
+Text GLabel 2110 1090 0    39   Input ~ 0
++5V
+Text GLabel 2585 1430 3    39   Input ~ 0
+GND
+Text GLabel 3075 1100 2    39   Input ~ 0
+3.3V
+$Comp
+L CONN_01X05 J5
+U 1 1 58B7990D
+P 3100 7265
+F 0 "J5" H 3100 7565 50  0000 C CNN
+F 1 "ID-12LA Header" V 3200 7265 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x05_Pitch2.54mm" H 3100 7265 50  0001 C CNN
+F 3 "" H 3100 7265 50  0001 C CNN
+	1    3100 7265
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 7065 0    39   Input ~ 0
++5V
+Text GLabel 2900 7165 0    39   Input ~ 0
+GND
+Text GLabel 2900 7265 0    39   Input ~ 0
+LED
+Text GLabel 2900 7365 0    39   Input ~ 0
+UART1RX
+Text GLabel 2900 7465 0    39   Input ~ 0
+CP
+Text GLabel 920  745  1    39   Input ~ 0
++9V
+$Comp
+L ICL7660 U3
+U 1 1 58B9FDD5
+P 2730 2230
+F 0 "U3" H 2530 2730 50  0000 C CNN
+F 1 "ICL7660" H 3130 1730 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2830 2130 50  0001 C CNN
+F 3 "" H 2830 2130 50  0001 C CNN
+	1    2730 2230
+	1    0    0    -1  
+$EndComp
+Text GLabel 2730 2730 3    39   Input ~ 0
+GND
+Text GLabel 2330 1930 0    39   Input ~ 0
++5V
+Text GLabel 3210 1930 2    39   Input ~ 0
+-5V
+Text GLabel 1615 1105 3    39   Input ~ 0
+GND
+Text GLabel 2020 735  2    39   Input ~ 0
++5V
+Text GLabel 1220 735  1    39   Input ~ 0
++9V
+$Comp
+L 7805 U9
+U 1 1 58461699
+P 1620 785
+F 0 "U9" H 1770 589 50  0000 C CNN
+F 1 "7805" H 1620 985 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1620 785 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
+	1    1620 785 
+	1    0    0    -1  
+$EndComp
+Text GLabel 5640 2295 0    39   Input ~ 0
+SS
+Text GLabel 9665 3995 2    39   Input ~ 0
+MOSI
+Text GLabel 9665 3895 2    39   Input ~ 0
+MISO
+Text GLabel 9665 3795 2    39   Input ~ 0
+SCK
+Text GLabel 5670 6690 1    39   Input ~ 0
+3.3V
+Text GLabel 5570 6690 1    39   Input ~ 0
+SS
+Text GLabel 5370 6690 1    39   Input ~ 0
+MOSI
+Text GLabel 5170 6690 1    39   Input ~ 0
+SCK
+Text GLabel 4970 6690 1    39   Input ~ 0
+MISO
+NoConn ~ 5070 6690
+NoConn ~ 5270 6690
+Text GLabel 5460 1495 1    39   Input ~ 0
+MCLR
+$Comp
+L C C9
+U 1 1 58D03AE9
+P 3130 2280
+F 0 "C9" H 3155 2380 50  0000 L CNN
+F 1 "10u" H 3155 2180 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3168 2130 50  0001 C CNN
+F 3 "" H 3130 2280 50  0001 C CNN
+	1    3130 2280
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 58D03E25
+P 3560 2295
+F 0 "C10" H 3585 2395 50  0000 L CNN
+F 1 "10u" H 3585 2195 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3598 2145 50  0001 C CNN
+F 3 "" H 3560 2295 50  0001 C CNN
+	1    3560 2295
+	1    0    0    -1  
+$EndComp
+Text GLabel 3560 2445 3    39   Input ~ 0
+GND
+Text GLabel 9665 2595 2    39   Input ~ 0
+LED
+Text GLabel 9665 2395 2    39   Input ~ 0
+CP
+$Comp
+L C C11
+U 1 1 58D2A716
+P 1220 885
+F 0 "C11" H 1245 985 50  0000 L CNN
+F 1 ".33uF" H 1245 785 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1258 735 50  0001 C CNN
+F 3 "" H 1220 885 50  0001 C CNN
+	1    1220 885 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 58D2AB02
+P 2020 885
+F 0 "C12" H 2045 985 50  0000 L CNN
+F 1 ".1uF" H 2045 785 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 2058 735 50  0001 C CNN
+F 3 "" H 2020 885 50  0001 C CNN
+	1    2020 885 
+	1    0    0    -1  
+$EndComp
 Connection ~ 935  2830
 Wire Wire Line
 	935  2830 1205 2880
@@ -411,263 +674,72 @@ Wire Wire Line
 	1505 3280 1505 3340
 Wire Wire Line
 	935  3130 1205 3080
-Text GLabel 5470 6690 1    39   Input ~ 0
-GND
-Text GLabel 9665 2995 2    39   Input ~ 0
-PGED2
-Text GLabel 9665 2895 2    39   Input ~ 0
-PGEC2
-Text GLabel 1015 5130 2    39   Input ~ 0
-MCLR
-Text GLabel 1015 5230 2    39   Input ~ 0
-3.3V
-Text GLabel 1015 5330 2    39   Input ~ 0
-GND
-Text GLabel 1015 5430 2    39   Input ~ 0
-PGED2
-Text GLabel 1015 5530 2    39   Input ~ 0
-PGEC2
-NoConn ~ 1015 5630
-$Comp
-L CONN_01X05 J7
-U 1 1 58AE524D
-P 830 6220
-F 0 "J7" H 830 6520 50  0000 C CNN
-F 1 "7-Segment Display" V 930 6220 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x05_Pitch2.54mm" H 830 6220 50  0001 C CNN
-F 3 "" H 830 6220 50  0001 C CNN
-	1    830  6220
-	-1   0    0    -1  
-$EndComp
-Text GLabel 1030 6020 2    39   Input ~ 0
-3.3V
-Text GLabel 1030 6120 2    39   Input ~ 0
-+5V
-Text GLabel 1030 6220 2    39   Input ~ 0
-GND
-Text GLabel 1030 6320 2    39   Input ~ 0
-SDA1
-Text GLabel 1030 6420 2    39   Input ~ 0
-SCL1
-Text GLabel 10545 3590 2    39   Input ~ 0
-SCL1
-Text GLabel 10880 3695 2    39   Input ~ 0
-SDA1
-Text GLabel 5640 3595 0    39   Input ~ 0
-AN13
-Text GLabel 1905 2980 2    39   Input ~ 0
-AN13
-Text GLabel 9665 1195 2    39   Input ~ 0
-UART2TX
-Text GLabel 9665 1095 2    39   Input ~ 0
-UART2RX
-Text GLabel 9665 2695 2    39   Input ~ 0
-UART1RX
-Text GLabel 9665 2295 2    39   Input ~ 0
-UART1TX
 Wire Wire Line
 	9665 3695 10880 3695
-$Comp
-L R R5
-U 1 1 58AE9BED
-P 10815 3545
-F 0 "R5" V 10895 3545 50  0000 C CNN
-F 1 "4.7k" V 10815 3545 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10745 3545 50  0001 C CNN
-F 3 "" H 10815 3545 50  0001 C CNN
-	1    10815 3545
-	1    0    0    -1  
-$EndComp
-Text GLabel 10815 3395 1    39   Input ~ 0
-3.3V
 Connection ~ 10815 3695
 Wire Wire Line
 	9665 3595 10505 3590
 Wire Wire Line
 	10505 3590 10545 3590
-$Comp
-L R R6
-U 1 1 58AEA269
-P 10505 3440
-F 0 "R6" V 10585 3440 50  0000 C CNN
-F 1 "4.7k" V 10505 3440 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 10435 3440 50  0001 C CNN
-F 3 "" H 10505 3440 50  0001 C CNN
-	1    10505 3440
-	1    0    0    -1  
-$EndComp
-Text GLabel 10505 3290 1    39   Input ~ 0
-3.3V
 Connection ~ 10505 3590
-Text GLabel 2800 5510 0    39   Input ~ 0
-3.3V
-Text GLabel 3300 5510 2    39   Input ~ 0
-UART2RX
-Text GLabel 2800 5610 0    39   Input ~ 0
-UART2TX
-Text GLabel 3300 5910 2    39   Input ~ 0
-GND
-NoConn ~ 3300 5610
-NoConn ~ 3300 5710
-NoConn ~ 3300 5810
-NoConn ~ 3300 6010
-NoConn ~ 3300 6110
-NoConn ~ 3300 6210
-NoConn ~ 3300 6310
-NoConn ~ 3300 6410
-NoConn ~ 2800 6410
-NoConn ~ 2800 6310
-NoConn ~ 2800 6210
-NoConn ~ 2800 6110
-NoConn ~ 2800 6010
-NoConn ~ 2800 5910
-NoConn ~ 2800 5810
-NoConn ~ 2800 5710
-$Comp
-L INA827 U1
-U 1 1 58AF6C20
-P 1505 2980
-F 0 "U1" H 1655 3105 50  0000 L CNN
-F 1 "INA827" H 1655 2855 50  0000 L CNN
-F 2 "Housings_SSOP:MSOP-8_3x3mm_Pitch0.65mm" H 1655 2780 50  0001 L CNN
-F 3 "" H 1605 2980 50  0001 C CNN
-	1    1505 2980
-	1    0    0    -1  
-$EndComp
-$Comp
-L LM1117-3.3 U2
-U 1 1 58B786AE
-P 2585 1095
-F 0 "U2" H 2685 845 50  0000 C CNN
-F 1 "LM1117-3.3" H 2585 1345 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 2585 1095 50  0001 C CNN
-F 3 "" H 2585 1095 50  0001 C CNN
-	1    2585 1095
-	1    0    0    -1  
-$EndComp
-Text GLabel 920  845  3    39   Input ~ 0
-GND
-Text GLabel 2285 1095 0    39   Input ~ 0
-+5V
-Text GLabel 2585 1395 3    39   Input ~ 0
-GND
-Text GLabel 2885 1095 2    39   Input ~ 0
-3.3V
-$Comp
-L CONN_01X05 J5
-U 1 1 58B7990D
-P 3100 7265
-F 0 "J5" H 3100 7565 50  0000 C CNN
-F 1 "ID-12LA Header" V 3200 7265 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x05_Pitch2.54mm" H 3100 7265 50  0001 C CNN
-F 3 "" H 3100 7265 50  0001 C CNN
-	1    3100 7265
-	1    0    0    -1  
-$EndComp
-Text GLabel 2900 7065 0    39   Input ~ 0
-+5V
-Text GLabel 2900 7165 0    39   Input ~ 0
-GND
-Text GLabel 2900 7265 0    39   Input ~ 0
-LED
-Text GLabel 2900 7365 0    39   Input ~ 0
-UART1RX
-Text GLabel 2900 7465 0    39   Input ~ 0
-CP
-Text GLabel 920  745  1    39   Input ~ 0
-+9V
-$Comp
-L ICL7660 U3
-U 1 1 58B9FDD5
-P 2730 2230
-F 0 "U3" H 2530 2730 50  0000 C CNN
-F 1 "ICL7660" H 3130 1730 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2830 2130 50  0001 C CNN
-F 3 "" H 2830 2130 50  0001 C CNN
-	1    2730 2230
-	1    0    0    -1  
-$EndComp
-Text GLabel 2730 2730 3    39   Input ~ 0
-GND
-Text GLabel 2330 1930 0    39   Input ~ 0
-+5V
-Text GLabel 3210 1930 2    39   Input ~ 0
--5V
-Text GLabel 1620 1035 3    39   Input ~ 0
-GND
-Text GLabel 2020 735  2    39   Input ~ 0
-+5V
-Text GLabel 1220 735  1    39   Input ~ 0
-+9V
-$Comp
-L 7805 U9
-U 1 1 58461699
-P 1620 785
-F 0 "U9" H 1770 589 50  0000 C CNN
-F 1 "7805" H 1620 985 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1620 785 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
-	1    1620 785 
-	1    0    0    -1  
-$EndComp
-Text GLabel 5640 2295 0    39   Input ~ 0
-SS
-Text GLabel 9665 3995 2    39   Input ~ 0
-MOSI
-Text GLabel 9665 3895 2    39   Input ~ 0
-MISO
-Text GLabel 9665 3795 2    39   Input ~ 0
-SCK
-Text GLabel 5670 6690 1    39   Input ~ 0
-3.3V
-Text GLabel 5570 6690 1    39   Input ~ 0
-SS
-Text GLabel 5370 6690 1    39   Input ~ 0
-MOSI
-Text GLabel 5170 6690 1    39   Input ~ 0
-SCK
-Text GLabel 4970 6690 1    39   Input ~ 0
-MISO
-NoConn ~ 5070 6690
-NoConn ~ 5270 6690
-Text GLabel 5460 1495 1    39   Input ~ 0
-MCLR
-$Comp
-L C C9
-U 1 1 58D03AE9
-P 3130 2280
-F 0 "C9" H 3155 2380 50  0000 L CNN
-F 1 "10u" H 3155 2180 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3168 2130 50  0001 C CNN
-F 3 "" H 3130 2280 50  0001 C CNN
-	1    3130 2280
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3130 2530 3130 2430
 Wire Wire Line
 	3560 2020 3560 2145
-$Comp
-L C C10
-U 1 1 58D03E25
-P 3560 2295
-F 0 "C10" H 3585 2395 50  0000 L CNN
-F 1 "10u" H 3585 2195 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3598 2145 50  0001 C CNN
-F 3 "" H 3560 2295 50  0001 C CNN
-	1    3560 2295
-	1    0    0    -1  
-$EndComp
-Text GLabel 3560 2445 3    39   Input ~ 0
-GND
 Wire Wire Line
 	3130 1930 3130 2020
 Wire Wire Line
 	3130 2020 3560 2020
 Wire Wire Line
 	3210 1930 3130 1930
-Text GLabel 9665 2595 2    39   Input ~ 0
-LED
-Text GLabel 9665 2395 2    39   Input ~ 0
-CP
+Wire Wire Line
+	1220 1035 2020 1035
+Wire Wire Line
+	1615 1105 1620 1105
+Wire Wire Line
+	1620 1105 1620 1035
+Connection ~ 1620 1035
+$Comp
+L C C14
+U 1 1 58D2B7FA
+P 2945 1250
+F 0 "C14" H 2970 1350 50  0000 L CNN
+F 1 "10uF" H 2970 1150 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 2983 1100 50  0001 C CNN
+F 3 "" H 2945 1250 50  0001 C CNN
+	1    2945 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 58D2BB13
+P 2225 1245
+F 0 "C13" H 2250 1345 50  0000 L CNN
+F 1 "10uF" H 2250 1145 50  0000 L CNN
+F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 2263 1095 50  0001 C CNN
+F 3 "" H 2225 1245 50  0001 C CNN
+	1    2225 1245
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2885 1095 3075 1095
+Wire Wire Line
+	2945 1095 2945 1100
+Wire Wire Line
+	3075 1095 3075 1100
+Connection ~ 2945 1095
+Wire Wire Line
+	2110 1095 2285 1095
+Wire Wire Line
+	2110 1095 2110 1090
+Connection ~ 2225 1095
+Wire Wire Line
+	2225 1400 2945 1400
+Wire Wire Line
+	2585 1400 2585 1395
+Wire Wire Line
+	2225 1400 2225 1395
+Connection ~ 2585 1400
+Wire Wire Line
+	2585 1430 2585 1405
 $EndSCHEMATC
