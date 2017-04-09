@@ -3,7 +3,7 @@ EESchema-DOCLIB  Version 2.0
 $CMP INA827
 D Precision, Rail-to-Rail I/O Instrumentation Amplifier, MSOP-8 package
 K Instrumentation OpAmp
-F http://www.ti.com/lit/ds/symlink/ina326.pdf
+F http://www.ti.com/lit/ds/symlink/ina827.pdf
 $ENDCMP
 #
 #End Doc Library

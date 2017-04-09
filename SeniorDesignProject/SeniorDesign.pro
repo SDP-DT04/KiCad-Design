@@ -1,4 +1,4 @@
-update=Tue 04 Apr 2017 12:56:52 PM EDT
+update=Sun 09 Apr 2017 03:12:17 PM EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -121,8 +121,6 @@ LibName91=Xicor
 LibName92=xilinx
 LibName93=zetex
 LibName94=Zilog
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -133,3 +131,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1

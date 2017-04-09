@@ -506,23 +506,12 @@ Text GLabel 2330 1930 0    39   Input ~ 0
 +5V
 Text GLabel 3210 1930 2    39   Input ~ 0
 -5V
-Text GLabel 1615 1105 3    39   Input ~ 0
+Text GLabel 1620 1075 3    39   Input ~ 0
 GND
-Text GLabel 2020 735  2    39   Input ~ 0
+Text GLabel 2020 730  2    39   Input ~ 0
 +5V
-Text GLabel 1220 735  1    39   Input ~ 0
+Text GLabel 1220 730  1    39   Input ~ 0
 +9V
-$Comp
-L 7805 U9
-U 1 1 58461699
-P 1620 785
-F 0 "U9" H 1770 589 50  0000 C CNN
-F 1 "7805" H 1620 985 50  0000 C CNN
-F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1620 785 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm7805.pdf" H 1620 785 50  0001 C CNN
-	1    1620 785 
-	1    0    0    -1  
-$EndComp
 Text GLabel 5640 2295 0    39   Input ~ 0
 SS
 Text GLabel 9665 3995 2    39   Input ~ 0
@@ -576,129 +565,25 @@ CP
 $Comp
 L C C11
 U 1 1 58D2A716
-P 1220 885
-F 0 "C11" H 1245 985 50  0000 L CNN
-F 1 ".33uF" H 1245 785 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1258 735 50  0001 C CNN
-F 3 "" H 1220 885 50  0001 C CNN
-	1    1220 885 
+P 1220 880
+F 0 "C11" H 1245 980 50  0000 L CNN
+F 1 ".33uF" H 1245 780 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 1258 730 50  0001 C CNN
+F 3 "" H 1220 880 50  0001 C CNN
+	1    1220 880 
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C12
 U 1 1 58D2AB02
-P 2020 885
-F 0 "C12" H 2045 985 50  0000 L CNN
-F 1 ".1uF" H 2045 785 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 2058 735 50  0001 C CNN
-F 3 "" H 2020 885 50  0001 C CNN
-	1    2020 885 
+P 2020 880
+F 0 "C12" H 2045 980 50  0000 L CNN
+F 1 ".1uF" H 2045 780 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 2058 730 50  0001 C CNN
+F 3 "" H 2020 880 50  0001 C CNN
+	1    2020 880 
 	1    0    0    -1  
 $EndComp
-Connection ~ 935  2830
-Wire Wire Line
-	935  2830 1205 2880
-Wire Wire Line
-	5015 1580 5485 1580
-Wire Wire Line
-	5510 1905 5510 1795
-Wire Wire Line
-	5510 1795 5640 1795
-Wire Wire Line
-	5025 1905 5510 1905
-Wire Wire Line
-	5485 1580 5485 1695
-Wire Wire Line
-	5485 1695 5640 1695
-Wire Wire Line
-	5025 2585 5485 2585
-Wire Wire Line
-	5510 2905 5510 2795
-Wire Wire Line
-	5510 2795 5640 2795
-Wire Wire Line
-	5015 2905 5510 2905
-Wire Wire Line
-	5485 2585 5485 2695
-Wire Wire Line
-	5485 2695 5640 2695
-Wire Wire Line
-	5015 3205 5485 3205
-Wire Wire Line
-	5510 3505 5510 3395
-Wire Wire Line
-	5510 3395 5640 3395
-Wire Wire Line
-	5025 3505 5510 3505
-Wire Wire Line
-	5485 3205 5485 3295
-Wire Wire Line
-	5485 3295 5640 3295
-Wire Wire Line
-	9810 1695 9665 1695
-Wire Wire Line
-	10045 1375 9820 1570
-Wire Wire Line
-	9820 1570 9665 1595
-Connection ~ 5260 3205
-Wire Wire Line
-	5335 2605 5335 2585
-Connection ~ 5335 2585
-Wire Wire Line
-	5335 1605 5335 1580
-Connection ~ 5335 1580
-Wire Wire Line
-	9665 3195 10070 3195
-Wire Wire Line
-	9665 3495 10165 3495
-Connection ~ 9870 3195
-Connection ~ 9870 3495
-Wire Wire Line
-	5640 1495 5410 1495
-Wire Wire Line
-	5410 1495 5410 1365
-Wire Wire Line
-	5025 1365 5110 1365
-Connection ~ 9820 1570
-Connection ~ 5260 3505
-Connection ~ 5335 2905
-Connection ~ 5335 1905
-Wire Wire Line
-	9820 1570 10105 1570
-Wire Wire Line
-	10105 1570 10105 1560
-Wire Wire Line
-	1505 2530 1505 2680
-Connection ~ 1505 2570
-Wire Wire Line
-	1505 3280 1505 3340
-Wire Wire Line
-	935  3130 1205 3080
-Wire Wire Line
-	9665 3695 10880 3695
-Connection ~ 10815 3695
-Wire Wire Line
-	9665 3595 10505 3590
-Wire Wire Line
-	10505 3590 10545 3590
-Connection ~ 10505 3590
-Wire Wire Line
-	3130 2530 3130 2430
-Wire Wire Line
-	3560 2020 3560 2145
-Wire Wire Line
-	3130 1930 3130 2020
-Wire Wire Line
-	3130 2020 3560 2020
-Wire Wire Line
-	3210 1930 3130 1930
-Wire Wire Line
-	1220 1035 2020 1035
-Wire Wire Line
-	1615 1105 1620 1105
-Wire Wire Line
-	1620 1105 1620 1035
-Connection ~ 1620 1035
 $Comp
 L C C14
 U 1 1 58D2B7FA
@@ -721,20 +606,143 @@ F 3 "" H 2225 1245 50  0001 C CNN
 	1    2225 1245
 	1    0    0    -1  
 $EndComp
+Connection ~ 935  2830
 Wire Wire Line
-	2885 1095 3075 1095
+	935  2830 1205 2880
+Wire Wire Line
+	5015 1580 5335 1580
+Wire Wire Line
+	5335 1580 5485 1580
+Wire Wire Line
+	5510 1905 5510 1795
+Wire Wire Line
+	5510 1795 5640 1795
+Wire Wire Line
+	5025 1905 5335 1905
+Wire Wire Line
+	5335 1905 5510 1905
+Wire Wire Line
+	5485 1580 5485 1695
+Wire Wire Line
+	5485 1695 5640 1695
+Wire Wire Line
+	5025 2585 5335 2585
+Wire Wire Line
+	5335 2585 5485 2585
+Wire Wire Line
+	5510 2905 5510 2795
+Wire Wire Line
+	5510 2795 5640 2795
+Wire Wire Line
+	5015 2905 5335 2905
+Wire Wire Line
+	5335 2905 5510 2905
+Wire Wire Line
+	5485 2585 5485 2695
+Wire Wire Line
+	5485 2695 5640 2695
+Wire Wire Line
+	5015 3205 5260 3205
+Wire Wire Line
+	5260 3205 5485 3205
+Wire Wire Line
+	5510 3505 5510 3395
+Wire Wire Line
+	5510 3395 5640 3395
+Wire Wire Line
+	5025 3505 5260 3505
+Wire Wire Line
+	5260 3505 5510 3505
+Wire Wire Line
+	5485 3205 5485 3295
+Wire Wire Line
+	5485 3295 5640 3295
+Wire Wire Line
+	9810 1695 9665 1695
+Wire Wire Line
+	10045 1375 9820 1570
+Wire Wire Line
+	9820 1570 9665 1595
+Connection ~ 5260 3205
+Wire Wire Line
+	5335 2605 5335 2585
+Connection ~ 5335 2585
+Wire Wire Line
+	5335 1605 5335 1580
+Connection ~ 5335 1580
+Wire Wire Line
+	9665 3195 9870 3195
+Wire Wire Line
+	9870 3195 10070 3195
+Wire Wire Line
+	9665 3495 9870 3495
+Wire Wire Line
+	9870 3495 10165 3495
+Connection ~ 9870 3195
+Connection ~ 9870 3495
+Wire Wire Line
+	5640 1495 5410 1495
+Wire Wire Line
+	5410 1495 5410 1365
+Wire Wire Line
+	5025 1365 5110 1365
+Connection ~ 9820 1570
+Connection ~ 5260 3505
+Connection ~ 5335 2905
+Connection ~ 5335 1905
+Wire Wire Line
+	9820 1570 10105 1570
+Wire Wire Line
+	10105 1570 10105 1560
+Wire Wire Line
+	1505 2530 1505 2570
+Wire Wire Line
+	1505 2570 1505 2680
+Connection ~ 1505 2570
+Wire Wire Line
+	1505 3280 1505 3340
+Wire Wire Line
+	935  3130 1205 3080
+Wire Wire Line
+	9665 3695 10815 3695
+Wire Wire Line
+	10815 3695 10880 3695
+Connection ~ 10815 3695
+Wire Wire Line
+	9665 3595 10505 3590
+Wire Wire Line
+	10505 3590 10545 3590
+Connection ~ 10505 3590
+Wire Wire Line
+	3130 2530 3130 2430
+Wire Wire Line
+	3560 2020 3560 2145
+Wire Wire Line
+	3130 1930 3130 2020
+Wire Wire Line
+	3130 2020 3560 2020
+Wire Wire Line
+	3210 1930 3130 1930
+Wire Wire Line
+	2885 1095 2945 1095
+Wire Wire Line
+	2945 1095 3075 1095
 Wire Wire Line
 	2945 1095 2945 1100
 Wire Wire Line
 	3075 1095 3075 1100
 Connection ~ 2945 1095
 Wire Wire Line
-	2110 1095 2285 1095
+	2110 1095 2225 1095
+Wire Wire Line
+	2225 1095 2285 1095
 Wire Wire Line
 	2110 1095 2110 1090
 Connection ~ 2225 1095
 Wire Wire Line
-	2225 1400 2945 1400
+	2225 1400 2585 1400
+Wire Wire Line
+	2585 1400 2945 1400
 Wire Wire Line
 	2585 1400 2585 1395
 Wire Wire Line
@@ -742,4 +750,22 @@ Wire Wire Line
 Connection ~ 2585 1400
 Wire Wire Line
 	2585 1430 2585 1405
+$Comp
+L 7805 U4
+U 1 1 58EA93CB
+P 1620 780
+F 0 "U4" H 1770 584 50  0000 C CNN
+F 1 "7805" H 1620 980 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 1620 780 50  0001 C CNN
+F 3 "" H 1620 780 50  0001 C CNN
+	1    1620 780 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1220 1030 1620 1030
+Wire Wire Line
+	1620 1030 2020 1030
+Connection ~ 1620 1030
+Wire Wire Line
+	1620 1075 1620 1030
 $EndSCHEMATC
