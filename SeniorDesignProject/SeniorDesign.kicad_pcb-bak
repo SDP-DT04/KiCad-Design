@@ -1,15 +1,15 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
 
   (general
-    (links 80)
-    (no_connects 2)
-    (area 115.494999 57.074999 185.495001 120.725001)
+    (links 84)
+    (no_connects 0)
+    (area 115.494999 56.175 185.495001 121.423)
     (thickness 1.6)
     (drawings 8)
     (tracks 403)
     (zones 0)
     (modules 35)
-    (nets 95)
+    (nets 94)
   )
 
   (page USLetter)
@@ -184,7 +184,6 @@
   (net 91 SCK)
   (net 92 "Net-(C9-Pad1)")
   (net 93 "Net-(C9-Pad2)")
-  (net 94 "Net-(C13-Pad2)")
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
@@ -206,7 +205,6 @@
     (add_net MCLR)
     (add_net MISO)
     (add_net MOSI)
-    (add_net "Net-(C13-Pad2)")
     (add_net "Net-(C8-Pad1)")
     (add_net "Net-(C9-Pad1)")
     (add_net "Net-(C9-Pad2)")
@@ -777,7 +775,7 @@
     )
   )
 
-  (module SeniorDesignFootprints:AkronZ (layer F.Cu) (tedit 584611B4) (tstamp 584614F7)
+  (module SeniorDesignFootprints:AkronZ (layer F.Cu) (tedit 590118D3) (tstamp 584614F7)
     (at 170.307 71.374)
     (fp_text reference G*** (at -0.08 -9.45) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
@@ -1880,14 +1878,14 @@
     )
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 58B9E1EB) (tstamp 58B9E9D0)
+  (module Connectors:1pin (layer F.Cu) (tedit 5901188E) (tstamp 58B9E9D0)
     (at 182.626 117.348)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1pin (at 0 3) (layer F.Fab)
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -1896,14 +1894,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 58B9E1F1) (tstamp 58B9E9D8)
+  (module Connectors:1pin (layer F.Cu) (tedit 59011891) (tstamp 58B9E9D8)
     (at 118.872 117.348)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
     (fp_text reference "" (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1pin (at 0 3) (layer F.Fab)
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -1912,14 +1910,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 58D03275) (tstamp 58B9E9E0)
+  (module Connectors:1pin (layer F.Cu) (tedit 59011883) (tstamp 58B9E9E0)
     (at 118.872 60.198)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.Fab)
+    (fp_text reference REF** (at 0 -3.048) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1pin (at 0 3) (layer F.Fab)
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -1928,14 +1926,14 @@
     (pad 1 thru_hole circle (at 0 0) (size 4.064 4.064) (drill 3.048) (layers *.Cu *.Mask))
   )
 
-  (module Connectors:1pin (layer F.Cu) (tedit 58C9AA47) (tstamp 58B9E9E8)
+  (module Connectors:1pin (layer F.Cu) (tedit 59011888) (tstamp 58B9E9E8)
     (at 182.626 60.198)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (fp_text reference REF** (at 0 -3.048) (layer F.Fab)
+    (fp_text reference REF** (at 0 -3.048) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 1pin (at 0 3) (layer F.Fab)
+    (fp_text value 1pin (at 0 3) (layer F.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
@@ -2596,6 +2594,8 @@
   (via (at 144.018 77.47) (size 0.6) (drill 0.4) (layers F.Cu B.Cu) (net 36))
   (segment (start 144.018 78.756) (end 146.05 78.756) (width 0.25) (layer B.Cu) (net 36) (status 30))
   (segment (start 144.018 78.756) (end 141.986 78.756) (width 0.25) (layer B.Cu) (net 36) (status 30))
+  (segment (start 131.826 78.232) (end 131.826 79.732) (width 0.25) (layer B.Cu) (net 36))
+  (segment (start 131.826 79.732) (end 131.826 82.042) (width 0.25) (layer B.Cu) (net 36))
   (segment (start 142.326 71.333) (end 135.423 71.333) (width 0.25) (layer B.Cu) (net 37))
   (segment (start 135.423 71.333) (end 134.874 71.882) (width 0.25) (layer B.Cu) (net 37))
   (segment (start 134.89 67.818) (end 134.89 68.818) (width 0.25) (layer F.Cu) (net 37))
@@ -2961,8 +2961,6 @@
   (segment (start 129 71.882) (end 129 70.75063) (width 0.25) (layer F.Cu) (net 93))
   (segment (start 129 70.75063) (end 127.33737 69.088) (width 0.25) (layer F.Cu) (net 93))
   (segment (start 127.823 67.691) (end 127.348 67.691) (width 0.25) (layer F.Cu) (net 93))
-  (segment (start 131.826 78.232) (end 131.826 79.732) (width 0.25) (layer B.Cu) (net 94))
-  (segment (start 131.826 79.732) (end 131.826 82.042) (width 0.25) (layer B.Cu) (net 94))
 
   (zone (net 36) (net_name GND) (layer F.Cu) (tstamp 58D030BB) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
